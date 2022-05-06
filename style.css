@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+}
+.header {
+    background-color: #222222;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.header ul li a:hover {
+    color: #fff;
+}
+
+#home {
+    text-align: center;
+}
+
+#home .img img {
+    width: 100%;
+}
+
+#home .describle {
+    position: relative;
+    top: 60px;
+    color: #ffffff;
+    text-shadow: 0px 0px 25px blue;
+}
+
+.content {
+    padding: 0 10px;
+    margin-top: 100px;
+}
+
+.search {
+    text-align: center;
+    margin: 20px 0;
+}
+.search input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search button {
+    width: 15%;
+    height: 41px;
+    border: none;
+    color: #fff;
+    background-color: #393939;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search button:hover {
+    opacity: 0.8;
+}
+
+#emoji {
+    text-align: justify;
+}
+
+.size40 {
+    font-size: 40px;
+}
+
+.smileys::selection {
+    background-color: #222222;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+.list li a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.title:hover {
+    color: #ff0000;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #393939;
+    color: #fff;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item h2 {
+    margin: 10px 0;
+}
+
+.item .xiaolin {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 742px) {
+    .container {
+        width: 100%;
+    }
+    .describle {
+        font-size: 17px;
+    }
+    .title {
+        font-size: 25px;
+    }
+}
